@@ -132,7 +132,9 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LogoutController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\PermissionErrorMsgController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,6 +153,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbProductModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ProductCategoryViewModel.cs" />
+    <Compile Include="Models\Sys.cs" />
     <Compile Include="Models\會員.cs">
       <DependentUpon>dbProductModel.tt</DependentUpon>
     </Compile>
@@ -188,6 +192,14 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Category\Index.cshtml" />
     <Content Include="Views\PermissionErrorMsg\Index.cshtml" />
+    <Content Include="Views\Member\Index.cshtml" />
+    <Content Include="Views\Member\Create.cshtml" />
+    <Content Include="Views\Member\Edit.cshtml" />
+    <Content Include="Views\Category\Create.cshtml" />
+    <Content Include="Views\Category\Edit.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
